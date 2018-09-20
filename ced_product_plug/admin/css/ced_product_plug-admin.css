@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ced_form_design_orders.container {
+    margin: 16px 0;
+}
+.ced_section1, .ced_section2, .ced_section3 {
+    background: #efebeb;
+    padding: 20px 20px;
+    margin: 14px 0;
+}
+.ced_all_orders {
+    margin: 16px 0;
+}
+.cedimgloader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.8);
+}
+.cedimgloader img {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    top: 45%;
+    left: 45%;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+.modal-dialog.ced_modal_width {
+    max-width: 970px;
+}
+.custom_cross_css {
+    position: absolute;
+    right: 18px;
+    top: 21px;
+}
+h5.ced_head_design {
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 12px 12px;
+}
+.ced_modal_width .modal-body .row {
+    padding-left: 12px;
+}
+div#menuBarDiv_txtEditor .btn-group a {
+    color: #000;
+}
+.Editor-editor {
+    background: #fff;
+}
